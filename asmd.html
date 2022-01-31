@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>shiv.calculator</title>
+    <link rel="stylesheet" href="asmd.css">
+    <script src="asmd.js"></script>
+</head>
+<body>
+    <input type="number" class="ibox" id="first">
+    <select id="operation" onclick="operate()">
+        <option value="ㅤ">ㅤ</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="÷">÷</option>
+    </select>
+    <input type="number" class="ibox" id="second">
+    <p>Make sure to click the equals symbol after you finish the equation</p>
+    <h4 onclick="main()"> = </h4>
+    <h4 id="answer"></h4>
+</body>
